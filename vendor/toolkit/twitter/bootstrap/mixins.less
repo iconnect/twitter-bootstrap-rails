@@ -651,7 +651,8 @@
     .row-fluid {
       width: 100%;
       .clearfix();
-      [class*="span"] {
+      [class^="span"],
+      [class*=" span"] {
         .input-block-level();
         float: left;
         margin-left: @fluidGridGutterWidth;

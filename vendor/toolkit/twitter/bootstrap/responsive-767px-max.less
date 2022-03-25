@@ -60,7 +60,8 @@
   [class^="span"], 
   [class*=" span"],
   .uneditable-input[class*="span"], // Makes uneditable inputs full-width when using grid sizing
-  .row-fluid [class*="span"] {
+  .row-fluid [class^="span"],
+  .row-fluid [class*=" span"] {
     float: none;
     display: block;
     width: 100%;
