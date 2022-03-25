@@ -31,7 +31,7 @@ a:hover,a:focus{color:#005580;text-decoration:underline;}
 .row:after{clear:both;}
 .row:before,.row:after{display:table;content:"";line-height:0;}
 .row:after{clear:both;}
-[class*="span"]{float:left;min-height:1px;margin-left:20px;}
+[class^="span"],[class*=" span"]{float:left;min-height:1px;margin-left:20px;}
 .container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:940px;}
 .span12{width:940px;}
 .span11{width:860px;}
@@ -61,7 +61,7 @@ a:hover,a:focus{color:#005580;text-decoration:underline;}
 .row:after{clear:both;}
 .row:before,.row:after{display:table;content:"";line-height:0;}
 .row:after{clear:both;}
-[class*="span"]{float:left;min-height:1px;margin-left:20px;}
+[class^="span"],[class*=" span"]{float:left;min-height:1px;margin-left:20px;}
 .container,.navbar-static-top .container,.navbar-fixed-top .container,.navbar-fixed-bottom .container{width:940px;}
 .span12{width:940px;}
 .span11{width:860px;}
@@ -285,7 +285,7 @@ input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#9999
 .input-large{width:210px;}
 .input-xlarge{width:270px;}
 .input-xxlarge{width:530px;}
-input[class*="span"],select[class*="span"],textarea[class*="span"],.uneditable-input[class*="span"],.row-fluid input[class*="span"],.row-fluid select[class*="span"],.row-fluid textarea[class*="span"],.row-fluid .uneditable-input[class*="span"]{float:none;margin-left:0;}
+input[class^="span"],input[class*=" span"],select[class^="span"],select[class*=" span"],textarea[class^="span"],textarea[class*=" span"],.uneditable-input[class*="span"],.row-fluid input[class*="span"],.row-fluid select[class*="span"],.row-fluid textarea[class*="span"],.row-fluid .uneditable-input[class*="span"]{float:none;margin-left:0;}
 .input-append input[class*="span"],.input-append .uneditable-input[class*="span"],.input-prepend input[class*="span"],.input-prepend .uneditable-input[class*="span"],.row-fluid input[class*="span"],.row-fluid select[class*="span"],.row-fluid textarea[class*="span"],.row-fluid .uneditable-input[class*="span"],.row-fluid .input-prepend [class*="span"],.row-fluid .input-append [class*="span"]{display:inline-block;}
 input,textarea,.uneditable-input{margin-left:0;}
 .controls-row [class*="span"]+[class*="span"]{margin-left:20px;}
